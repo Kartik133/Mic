@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
   background(0);
-  x.play();
+  //x.play();
   v = c.getLevel();
   fill(255);
   noStroke();
