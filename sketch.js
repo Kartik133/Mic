@@ -1,6 +1,6 @@
 var c,v,x;
 
-function preload {
+function preload() {
    x = loadSound("c.mp3"); 
 }
 
