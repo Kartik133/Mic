@@ -17,5 +17,7 @@ function draw() {
   v = c.getLevel();
   fill(255);
   noStroke();
+  textSize(10);
+  text(v,300,350);
   ellipse(200,200,v*200,v*200);
 }
