@@ -2,7 +2,7 @@ var c,v,x;
 
 function setup() {
   createCanvas(400,400);
-  c = p5.AudioIn();
+  c = new p5.AudioIn();
   c.start();
 }
 
